@@ -1,0 +1,57 @@
+/*Cambios a Estructura*/
+
+h1{
+color: #4287f5;
+text-align: center;
+}
+
+h2{
+    background-color: #215703;
+    color: #9ed97e;
+}
+
+body{
+    font-family: Verdana;
+
+}
+
+/*Clases*/
+.destacado{
+color : #fab339;
+}
+
+.pinky {
+    font-weight: bold;
+    color : #b21eba;
+    text-align: right;
+}
+
+/*Botonera*/
+
+#botonera{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+
+}
+
+#botonera li{
+    display : inline ;
+}
+
+#botonera li a {
+    color: #b00202;
+    text-decoration: none;
+    display : inline-block;
+    width: 200px;
+    height: 40px;
+    border: 1px #b00202 solid;
+    text-align: center;
+    line-height: 40px;
+    background-color: #fdff8f;
+}
+/*Hover*/
+
+#botonera li a:hover{
+    background-color:#dcde26; 
+}
